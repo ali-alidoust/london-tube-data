@@ -1,0 +1,23 @@
+{
+  "name": "london-tube-data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "read-database": "node read-database.js train-network.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ali-alidoust/london-tube-data.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ali-alidoust/london-tube-data/issues"
+  },
+  "homepage": "https://github.com/ali-alidoust/london-tube-data#readme",
+  "dependencies": {
+    "mysql": "^2.18.1"
+  }
+}
