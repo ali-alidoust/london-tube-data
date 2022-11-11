@@ -13,6 +13,16 @@
             ],
             "program": "${workspaceFolder}/read-database.js",
             "args": ["train-network.json"]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Query Lines",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/query-database.js",
+            "args": ["getLines", "940GZZLUOXC"]
         }
     ]
 }
