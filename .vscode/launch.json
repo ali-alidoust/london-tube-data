@@ -23,6 +23,16 @@
             ],
             "program": "${workspaceFolder}/query-database.js",
             "args": ["getLines", "940GZZLUOXC"]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Query Stations",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/query-database.js",
+            "args": ["getStations", "0"]
         }
     ]
 }
